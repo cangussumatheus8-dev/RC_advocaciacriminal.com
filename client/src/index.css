@@ -43,61 +43,61 @@
 }
 
 :root {
-  /* Minimalismo Jurídico Contemporâneo - Paleta Premium */
-  --primary: #0F1F3C; /* Azul-marinho profundo */
+  /* Minimalismo Jurídico Contemporâneo - Paleta Premium com Azul Escuro e Dourado */
+  --primary: #2C3E50; /* Azul escuro (conforme logo) */
   --primary-foreground: #FFFFFF; /* Branco puro */
-  --accent: #D4AF37; /* Ouro sutil */
-  --accent-foreground: #0F1F3C; /* Azul-marinho */
-  --secondary: #F8FAFC; /* Azul muito claro */
-  --secondary-foreground: #0F1F3C; /* Azul-marinho */
-  --muted: #6B7280; /* Cinza neutro */
-  --muted-foreground: #374151; /* Cinza escuro */
+  --accent: #D4A574; /* Dourado (conforme logo) */
+  --accent-foreground: #2C3E50; /* Azul escuro */
+  --secondary: #F5F7FA; /* Azul muito claro */
+  --secondary-foreground: #2C3E50; /* Azul escuro */
+  --muted: #7F8C8D; /* Cinza neutro */
+  --muted-foreground: #34495E; /* Cinza escuro */
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --border: #E5E7EB; /* Cinza claro */
-  --input: #F3F4F6; /* Fundo input */
-  --ring: #D4AF37; /* Ouro para focus */
+  --border: #E8EAED; /* Cinza claro */
+  --input: #F5F7FA; /* Fundo input */
+  --ring: #D4A574; /* Dourado para focus */
   --radius: 0.5rem;
   --background: #FFFFFF; /* Branco */
-  --foreground: #0F1F3C; /* Azul-marinho */
+  --foreground: #2C3E50; /* Azul escuro */
   --card: #FFFFFF; /* Branco */
-  --card-foreground: #0F1F3C; /* Azul-marinho */
+  --card-foreground: #2C3E50; /* Azul escuro */
   --popover: #FFFFFF; /* Branco */
-  --popover-foreground: #0F1F3C; /* Azul-marinho */
+  --popover-foreground: #2C3E50; /* Azul escuro */
   --sidebar: #FFFFFF;
-  --sidebar-foreground: #0F1F3C;
-  --sidebar-accent: #D4AF37;
-  --sidebar-accent-foreground: #0F1F3C;
-  --sidebar-border: #E5E7EB;
-  --sidebar-ring: #D4AF37;
+  --sidebar-foreground: #2C3E50;
+  --sidebar-accent: #D4A574;
+  --sidebar-accent-foreground: #2C3E50;
+  --sidebar-border: #E8EAED;
+  --sidebar-ring: #D4A574;
   /* Tipografia */
   --font-display: 'Playfair Display', serif;
   --font-body: 'Lato', sans-serif;
 }
 
 .dark {
-  /* Dark mode - mantém a paleta premium */
-  --background: #0F1F3C; /* Azul-marinho */
+  /* Dark mode - mantém a paleta premium com azul escuro e dourado */
+  --background: #2C3E50; /* Azul escuro */
   --foreground: #FFFFFF; /* Branco */
-  --card: #1A2F4A; /* Azul-marinho mais claro */
+  --card: #34495E; /* Azul escuro mais claro */
   --card-foreground: #FFFFFF; /* Branco */
-  --popover: #1A2F4A; /* Azul-marinho mais claro */
+  --popover: #34495E; /* Azul escuro mais claro */
   --popover-foreground: #FFFFFF; /* Branco */
-  --secondary: #1A2F4A; /* Azul-marinho mais claro */
-  --secondary-foreground: #E5E7EB; /* Cinza claro */
-  --muted: #6B7280; /* Cinza neutro */
-  --muted-foreground: #D1D5DB; /* Cinza mais claro */
-  --accent: #D4AF37; /* Ouro */
-  --accent-foreground: #0F1F3C; /* Azul-marinho */
-  --border: #2D3E52; /* Azul-marinho mais claro */
-  --input: #1A2F4A; /* Azul-marinho mais claro */
-  --ring: #D4AF37; /* Ouro */
-  --sidebar: #0F1F3C;
+  --secondary: #34495E; /* Azul escuro mais claro */
+  --secondary-foreground: #ECF0F1; /* Cinza claro */
+  --muted: #7F8C8D; /* Cinza neutro */
+  --muted-foreground: #BDC3C7; /* Cinza mais claro */
+  --accent: #D4A574; /* Dourado */
+  --accent-foreground: #2C3E50; /* Azul escuro */
+  --border: #3D5A73; /* Azul escuro mais claro */
+  --input: #34495E; /* Azul escuro mais claro */
+  --ring: #D4A574; /* Dourado */
+  --sidebar: #2C3E50;
   --sidebar-foreground: #FFFFFF;
-  --sidebar-accent: #D4AF37;
-  --sidebar-accent-foreground: #0F1F3C;
-  --sidebar-border: #2D3E52;
-  --sidebar-ring: #D4AF37;
+  --sidebar-accent: #D4A574;
+  --sidebar-accent-foreground: #2C3E50;
+  --sidebar-border: #3D5A73;
+  --sidebar-ring: #D4A574;
 }
 
 @layer base {

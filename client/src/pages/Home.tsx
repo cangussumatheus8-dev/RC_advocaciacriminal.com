@@ -3,9 +3,9 @@ import { ChevronDown, MapPin, Phone, MessageCircle, Star, Shield, Clock, Target,
 
 /**
  * Design: Minimalismo Jurídico Contemporâneo
- * Paleta: Azul-marinho (#0F1F3C), Ouro (#D4AF37), Branco
+ * Paleta: Azul Escuro (#2C3E50), Dourado (#D4A574), Branco
  * Tipografia: Playfair Display (títulos) + Lato (corpo)
- * Elementos: Barra vertical em ouro, cards com borda superior ouro, espaçamento generoso
+ * Elementos: Barra vertical em dourado, cards com borda superior dourada, espaçamento generoso
  */
 
 export default function Home() {
@@ -42,15 +42,11 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-40">
         <div className="container flex items-center justify-between py-4">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-display font-bold text-lg">RC</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="text-primary font-display font-bold text-lg">RC Advocacia</h1>
-              <p className="text-xs text-muted">Criminal</p>
-            </div>
-          </div>
+          <img
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480932232/YJvmHm6vJ2cYkxMD5Zyd3P/rc-logo_8d12dbc3.png"
+            alt="RC Advocacia Criminal"
+            className="h-14 w-auto"
+          />
 
           {/* Menu Desktop */}
           <nav className="hidden md:flex items-center gap-8">
@@ -513,7 +509,7 @@ export default function Home() {
             {/* Mapa */}
             <div className="rounded-lg overflow-hidden shadow-lg h-96">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3822.5618947126!2d-49.2561!3d-16.0123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e3f3f3f3f3f3f%3A0x3f3f3f3f3f3f3f3f!2sAlameda%20Maracan%C3%A3%2C%20Qd%20119%20-%20lote%2023%20-%20St.%20Jao%2C%20Goi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.8456789!2d-49.2561!3d-16.0123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e3f3f3f3f3f3f%3A0x3f3f3f3f3f3f3f3f!2sAlameda%20Maracan%C3%A3%2C%20119%20-%20Quadra%20119%20-%20Lote%2023%20-%20St%20Jao%2C%20Goi%C3%A2nia%20-%20GO%2074674-150%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1704067200000"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
