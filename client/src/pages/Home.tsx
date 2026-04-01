@@ -143,37 +143,18 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-display font-bold text-primary mb-6">
               RC Advocacia Criminal
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed">
               A RC Advocacia Criminal atua com foco na defesa criminal, oferecendo atendimento ágil, sigiloso e estratégico. Trabalhamos com seriedade em cada caso, buscando sempre a melhor solução para proteger seus direitos e sua liberdade.
             </p>
-            <p className="text-red-600 font-semibold mb-8 text-base md:text-lg">
-              Em caso de prisão ou urgência, entre em contato imediatamente.
-            </p>
 
-            {/* Urgency Badge */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-              <div className="urgency-badge">
-                ⏰ Atendimento 24 horas – Plantão Criminal
-              </div>
-            </div>
-
-            {/* CTAs Hero */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <button
-                onClick={() => openWhatsApp('Gostaria de falar com um advogado criminalista agora.')}
-                className="btn-primary w-full sm:w-auto"
-              >
-                <MessageCircle className="inline mr-2" size={20} />
-                Falar com um Advogado Agora
-              </button>
-              <button
-                onClick={() => scrollToSection('avaliacoes')}
-                className="btn-gold w-full sm:w-auto"
-              >
-                Ver Avaliações
-                <ChevronDown className="inline ml-2" size={20} />
-              </button>
-            </div>
+            {/* CTA Hero */}
+            <button
+              onClick={() => openWhatsApp('Gostaria de falar com um advogado criminalista agora.')}
+              className="btn-primary w-full sm:w-auto"
+            >
+              <MessageCircle className="inline mr-2" size={20} />
+              Falar com um Advogado Agora
+            </button>
           </div>
         </div>
       </section>
