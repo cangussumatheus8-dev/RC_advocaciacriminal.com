@@ -230,7 +230,7 @@ export default function Home() {
             {/* Foto */}
             <div className="flex justify-center">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480932232/YJvmHm6vJ2cYkxMD5Zyd3P/lawyer-portrait-placeholder-kVSjj43LvRFspHV2SN5SLd.webp"
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480932232/YJvmHm6vJ2cYkxMD5Zyd3P/ranier-cardoso_de99b9b7.png"
                 alt="Ranier Cardoso - Advogado Criminalista"
                 className="rounded-lg shadow-lg max-w-sm w-full"
               />
@@ -509,7 +509,7 @@ export default function Home() {
             {/* Mapa */}
             <div className="rounded-lg overflow-hidden shadow-lg h-96">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.8456789!2d-49.2561!3d-16.0123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e3f3f3f3f3f3f%3A0x3f3f3f3f3f3f3f3f!2sAlameda%20Maracan%C3%A3%2C%20119%20-%20Quadra%20119%20-%20Lote%2023%20-%20St%20Jao%2C%20Goi%C3%A2nia%20-%20GO%2074674-150%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1704067200000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.845!2d-49.256!3d-16.0123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e3f3f3f3f3f3f%3A0x3f3f3f3f3f3f3f3f!2sAlameda%20Maracan%C3%A3%2C%20Qd%20119%20-%20Lote%2023%20-%20St%20Jao%2C%20Goi%C3%A2nia%20-%20GO%2074674-150%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1712079600000"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
